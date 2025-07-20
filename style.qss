@@ -1,0 +1,282 @@
+/* QAbstractButton Export from Figma - Generated Styles */
+
+/* QAbstractButton - Size=sm, State=active, Type=QPushButton */
+#qpushbutton_sm_active_0 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #3f3f3f;
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid #bbbbbb;
+  min-width: 40px;
+  min-height: 24px;
+}
+
+/* QAbstractButton - Size=sm, State=hover, Type=QPushButton */
+#qpushbutton_sm_hover_1 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #2a2a2a;
+  background-color: #d5d5d5;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid #a8a8a8;
+  min-width: 40px;
+  min-height: 24px;
+}
+
+/* QAbstractButton - Size=sm, State=pressed, Type=QPushButton */
+#qpushbutton_sm_pressed_2 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #1a1a1a;
+  background-color: #c8c8c8;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid #999999;
+  min-width: 40px;
+  min-height: 24px;
+}
+
+/* QAbstractButton - Size=sm, State=disabled, Type=QPushButton */
+#qpushbutton_sm_disabled_3 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #8a8a8a;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid #cccccc;
+  min-width: 40px;
+  min-height: 24px;
+}
+
+/* QAbstractButton - Size=sm, State=active, Type=QToolButton_icon */
+#qtoolbutton_icon_sm_active_4 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #3f3f3f;
+  background-color: #efefef;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  min-width: 24px;
+  min-height: 24px;
+  qproperty-toolButtonStyle: ToolButtonIconOnly;
+  text-align: center;
+}
+
+/* QAbstractButton - Size=sm, State=hover, Type=QToolButton_icon */
+#qtoolbutton_icon_sm_hover_5 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #2a2a2a;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  min-width: 24px;
+  min-height: 24px;
+  qproperty-toolButtonStyle: ToolButtonIconOnly;
+  text-align: center;
+}
+
+/* QAbstractButton - Size=sm, State=pressed, Type=QToolButton_icon */
+#qtoolbutton_icon_sm_pressed_6 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #1a1a1a;
+  background-color: #d3d3d3;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  min-width: 24px;
+  min-height: 24px;
+  qproperty-toolButtonStyle: ToolButtonIconOnly;
+  text-align: center;
+}
+
+/* QAbstractButton - Size=sm, State=disabled, Type=QToolButton_icon */
+#qtoolbutton_icon_sm_disabled_7 {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #8a8a8a;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  min-width: 24px;
+  min-height: 24px;
+  qproperty-toolButtonStyle: ToolButtonIconOnly;
+  text-align: center;
+}
+
+/* QAbstractButton - Size=md, State=active, Type=QPushButton */
+#qpushbutton_md_active_8 {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #3f3f3f;
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #bbbbbb;
+  min-width: 60px;
+  min-height: 32px;
+}
+
+/* QAbstractButton - Size=md, State=hover, Type=QPushButton */
+#qpushbutton_md_hover_9 {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #2a2a2a;
+  background-color: #d5d5d5;
+  border-radius: 4px;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #a8a8a8;
+  min-width: 60px;
+  min-height: 32px;
+}
+
+/* QAbstractButton - Size=md, State=pressed, Type=QPushButton */
+#qpushbutton_md_pressed_10 {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #1a1a1a;
+  background-color: #c8c8c8;
+  border-radius: 4px;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #999999;
+  min-width: 60px;
+  min-height: 32px;
+}
+
+/* QAbstractButton - Size=md, State=disabled, Type=QPushButton */
+#qpushbutton_md_disabled_11 {
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #8a8a8a;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #cccccc;
+  min-width: 60px;
+  min-height: 32px;
+}
+
+/* QAbstractButton - Size=lg, State=active, Type=QPushButton */
+#qpushbutton_lg_active_12 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #3f3f3f;
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #bbbbbb;
+  min-width: 80px;
+  min-height: 40px;
+}
+
+/* QAbstractButton - Size=lg, State=hover, Type=QPushButton */
+#qpushbutton_lg_hover_13 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #2a2a2a;
+  background-color: #d5d5d5;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #a8a8a8;
+  min-width: 80px;
+  min-height: 40px;
+}
+
+/* QAbstractButton - Size=lg, State=pressed, Type=QPushButton */
+#qpushbutton_lg_pressed_14 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #1a1a1a;
+  background-color: #c8c8c8;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #999999;
+  min-width: 80px;
+  min-height: 40px;
+}
+
+/* QAbstractButton - Size=lg, State=disabled, Type=QPushButton */
+#qpushbutton_lg_disabled_15 {
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: regular;
+  color: #8a8a8a;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #cccccc;
+  min-width: 80px;
+  min-height: 40px;
+}
+
+/* General Button Styles */
+QPushButton {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+QPushButton:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  border-color: #007bff;
+}
+
+QPushButton:pressed {
+  background-color: rgba(0, 123, 255, 0.2);
+  border-color: #0056b3;
+}
+
+QPushButton:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
+
+QToolButton {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+QToolButton:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  border-color: #007bff;
+}
+
+QToolButton:pressed {
+  background-color: rgba(0, 123, 255, 0.2);
+  border-color: #0056b3;
+}
+
+QToolButton:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
