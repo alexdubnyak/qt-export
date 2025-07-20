@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <file>src/resources/qabstract_button_icon.svg</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>src/styles/qabstract_button.qss</file>
+        <file>src/styles/primary_button.qss</file>
+    </qresource>
+    <qresource prefix="/widgets">
+        <file>src/widgets/qabstract_button.ui</file>
+        <file>src/widgets/primary_button.ui</file>
+    </qresource>
+</RCC>
