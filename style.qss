@@ -1,4 +1,5 @@
 /* QAbstractButton Export from Figma - Generated Styles */
+/* Updated with correct Figma colors: hover #dff4fa, pressed #b1e2f2, borders #85cfeb/#4faade */
 
 /* QAbstractButton - Size=sm, State=active, Type=QPushButton */
 #qpushbutton_sm_active_0 {
@@ -19,11 +20,11 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #2a2a2a;
-  background-color: #d5d5d5;
+  color: #3f3f3f;
+  background-color: #dff4fa;
   border-radius: 4px;
   padding: 4px 8px 4px 8px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid #85cfeb;
   min-width: 40px;
   min-height: 24px;
 }
@@ -33,11 +34,11 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #1a1a1a;
-  background-color: #c8c8c8;
+  color: #3f3f3f;
+  background-color: #b1e2f2;
   border-radius: 4px;
   padding: 4px 8px 4px 8px;
-  border: 1px solid #999999;
+  border: 1px solid #4faade;
   min-width: 40px;
   min-height: 24px;
 }
@@ -47,13 +48,14 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #8a8a8a;
-  background-color: #f0f0f0;
+  color: #bbbbbb;
+  background-color: #e2e2e2;
   border-radius: 4px;
   padding: 4px 8px 4px 8px;
-  border: 1px solid #cccccc;
+  border: 1px solid #bbbbbb;
   min-width: 40px;
   min-height: 24px;
+  font-style: italic;
 }
 
 /* QAbstractButton - Size=sm, State=active, Type=QToolButton_icon */
@@ -62,10 +64,10 @@
   font-family: "Roboto";
   font-weight: regular;
   color: #3f3f3f;
-  background-color: #efefef;
+  background-color: #e2e2e2;
   border-radius: 4px;
   padding: 4px;
-  border: none;
+  border: 1px solid #bbbbbb;
   min-width: 24px;
   min-height: 24px;
   qproperty-toolButtonStyle: ToolButtonIconOnly;
@@ -77,11 +79,11 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #2a2a2a;
-  background-color: #e0e0e0;
+  color: #3f3f3f;
+  background-color: #dff4fa;
   border-radius: 4px;
   padding: 4px;
-  border: none;
+  border: 1px solid #85cfeb;
   min-width: 24px;
   min-height: 24px;
   qproperty-toolButtonStyle: ToolButtonIconOnly;
@@ -93,11 +95,11 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #1a1a1a;
-  background-color: #d3d3d3;
+  color: #3f3f3f;
+  background-color: #b1e2f2;
   border-radius: 4px;
   padding: 4px;
-  border: none;
+  border: 1px solid #4faade;
   min-width: 24px;
   min-height: 24px;
   qproperty-toolButtonStyle: ToolButtonIconOnly;
@@ -109,15 +111,16 @@
   font-size: 12px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #8a8a8a;
-  background-color: #f5f5f5;
+  color: #bbbbbb;
+  background-color: #e2e2e2;
   border-radius: 4px;
   padding: 4px;
-  border: none;
+  border: 1px solid #bbbbbb;
   min-width: 24px;
   min-height: 24px;
   qproperty-toolButtonStyle: ToolButtonIconOnly;
   text-align: center;
+  font-style: italic;
 }
 
 /* QAbstractButton - Size=md, State=active, Type=QPushButton */
@@ -139,11 +142,11 @@
   font-size: 14px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #2a2a2a;
-  background-color: #d5d5d5;
+  color: #3f3f3f;
+  background-color: #dff4fa;
   border-radius: 4px;
   padding: 6px 12px 6px 12px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid #85cfeb;
   min-width: 60px;
   min-height: 32px;
 }
@@ -153,11 +156,11 @@
   font-size: 14px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #1a1a1a;
-  background-color: #c8c8c8;
+  color: #3f3f3f;
+  background-color: #b1e2f2;
   border-radius: 4px;
   padding: 6px 12px 6px 12px;
-  border: 1px solid #999999;
+  border: 1px solid #4faade;
   min-width: 60px;
   min-height: 32px;
 }
@@ -167,13 +170,14 @@
   font-size: 14px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #8a8a8a;
-  background-color: #f0f0f0;
+  color: #bbbbbb;
+  background-color: #e2e2e2;
   border-radius: 4px;
   padding: 6px 12px 6px 12px;
-  border: 1px solid #cccccc;
+  border: 1px solid #bbbbbb;
   min-width: 60px;
   min-height: 32px;
+  font-style: italic;
 }
 
 /* QAbstractButton - Size=lg, State=active, Type=QPushButton */
@@ -195,11 +199,11 @@
   font-size: 16px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #2a2a2a;
-  background-color: #d5d5d5;
+  color: #3f3f3f;
+  background-color: #dff4fa;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid #85cfeb;
   min-width: 80px;
   min-height: 40px;
 }
@@ -209,11 +213,11 @@
   font-size: 16px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #1a1a1a;
-  background-color: #c8c8c8;
+  color: #3f3f3f;
+  background-color: #b1e2f2;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  border: 1px solid #999999;
+  border: 1px solid #4faade;
   min-width: 80px;
   min-height: 40px;
 }
@@ -223,60 +227,86 @@
   font-size: 16px;
   font-family: "Roboto";
   font-weight: regular;
-  color: #8a8a8a;
-  background-color: #f0f0f0;
+  color: #bbbbbb;
+  background-color: #e2e2e2;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  border: 1px solid #cccccc;
+  border: 1px solid #bbbbbb;
   min-width: 80px;
   min-height: 40px;
+  font-style: italic;
 }
 
-/* General Button Styles */
+/* General Button Styles with Figma colors */
 QPushButton {
-  border: 1px solid #ccc;
+  border: 1px solid #bbbbbb;
   border-radius: 4px;
-  padding: 6px 12px;
-  background-color: #f8f9fa;
-  color: #212529;
+  padding: 4px 8px;
+  background-color: #e2e2e2;
+  color: #3f3f3f;
+  font-family: "Roboto";
+  font-size: 12px;
 }
 
 QPushButton:hover {
-  background-color: rgba(0, 123, 255, 0.1);
-  border-color: #007bff;
+  background-color: #dff4fa;
+  border-color: #85cfeb;
 }
 
 QPushButton:pressed {
-  background-color: rgba(0, 123, 255, 0.2);
-  border-color: #0056b3;
+  background-color: #b1e2f2;
+  border-color: #4faade;
 }
 
 QPushButton:disabled {
-  background-color: #e9ecef;
-  color: #6c757d;
-  border-color: #dee2e6;
+  background-color: #e2e2e2;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+  font-style: italic;
 }
 
 QToolButton {
-  border: 1px solid #ccc;
+  border: 1px solid #bbbbbb;
   border-radius: 4px;
-  padding: 4px 8px;
-  background-color: #f8f9fa;
-  color: #212529;
+  padding: 4px;
+  background-color: #e2e2e2;
+  color: #3f3f3f;
+  font-family: "Roboto";
+  font-size: 12px;
 }
 
 QToolButton:hover {
-  background-color: rgba(0, 123, 255, 0.1);
-  border-color: #007bff;
+  background-color: #dff4fa;
+  border-color: #85cfeb;
 }
 
 QToolButton:pressed {
-  background-color: rgba(0, 123, 255, 0.2);
-  border-color: #0056b3;
+  background-color: #b1e2f2;
+  border-color: #4faade;
 }
 
 QToolButton:disabled {
-  background-color: #e9ecef;
-  color: #6c757d;
-  border-color: #dee2e6;
+  background-color: #e2e2e2;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+  font-style: italic;
+}
+
+/* Icon styles */
+QIcon {
+  background-color: #efefef;
+  border-radius: 2px;
+}
+
+/* Label styles */
+QLabel {
+  color: #3f3f3f;
+  font-family: "Roboto";
+  background: transparent;
+  border: none;
+}
+
+QLabel:disabled {
+  color: #bbbbbb;
+  font-style: italic;
 }
