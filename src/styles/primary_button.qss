@@ -1,0 +1,77 @@
+/* Primary Button Styles */
+/* Exported from Figma Design System */
+
+QPushButton#primaryButton {
+    /* Base styles */
+    background-color: #007AFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-family: "Inter", "SF Pro Display", system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    
+    /* Spacing */
+    padding: 12px 16px;
+    min-width: 168px;
+    min-height: 24px;
+    
+    /* Effects */
+    selection-background-color: transparent;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #0056CC;
+    /* Subtle scale effect can be simulated with padding adjustment */
+    padding: 11px 15px;
+}
+
+QPushButton#primaryButton:pressed {
+    background-color: #003D99;
+    padding: 13px 17px;
+}
+
+QPushButton#primaryButton:disabled {
+    background-color: #E5E5E7;
+    color: #8E8E93;
+}
+
+QPushButton#primaryButton:focus {
+    outline: 2px solid #007AFF;
+    outline-offset: 2px;
+}
+
+/* Dark theme support */
+QPushButton#primaryButton[darkTheme="true"] {
+    background-color: #0A84FF;
+}
+
+QPushButton#primaryButton[darkTheme="true"]:hover {
+    background-color: #409CFF;
+}
+
+QPushButton#primaryButton[darkTheme="true"]:pressed {
+    background-color: #0071E3;
+}
+
+/* Secondary button variant */
+QPushButton#primaryButton[variant="secondary"] {
+    background-color: transparent;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+}
+
+QPushButton#primaryButton[variant="secondary"]:hover {
+    background-color: #007AFF;
+    color: #FFFFFF;
+}
+
+/* Destructive button variant */
+QPushButton#primaryButton[variant="destructive"] {
+    background-color: #FF3B30;
+}
+
+QPushButton#primaryButton[variant="destructive"]:hover {
+    background-color: #D70015;
+}
