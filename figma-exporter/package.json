@@ -1,0 +1,52 @@
+{
+  "name": "figma-to-qt-exporter",
+  "version": "1.0.0",
+  "description": "Automated tool to export Figma component sets to Qt QSS styles and .ui files",
+  "main": "figma-to-qt.js",
+  "type": "module",
+  "scripts": {
+    "export": "node example.js",
+    "test": "node --test",
+    "dev": "node --watch example.js",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "figma",
+    "qt",
+    "qss",
+    "ui",
+    "export",
+    "design-system",
+    "automation",
+    "component-library"
+  ],
+  "author": "Alex Dubnyak <alexdubnyak@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdubnyak/qt-export.git",
+    "directory": "figma-exporter"
+  },
+  "bugs": {
+    "url": "https://github.com/alexdubnyak/qt-export/issues"
+  },
+  "homepage": "https://github.com/alexdubnyak/qt-export/tree/main/figma-exporter",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "exports": {
+    ".": "./figma-to-qt.js",
+    "./example": "./example.js"
+  },
+  "files": [
+    "figma-to-qt.js",
+    "example.js",
+    "generated-components.qss",
+    "README.md"
+  ]
+}
