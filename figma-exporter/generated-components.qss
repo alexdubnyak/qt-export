@@ -1,0 +1,225 @@
+/* Generated QSS from Figma Component Set */
+/* Auto-generated with all component states and variants */
+
+/* QPushButton Styles */
+QPushButton {
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QPushButton:hover {
+    background-color: #dff4fa;
+    border: 1px solid #85cfeb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QPushButton:pressed {
+    background-color: #b1e2f2;
+    border: 1px solid #4faade;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QPushButton:disabled {
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #bbbbbb;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+/* QToolButton Styles */
+QToolButton {
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QToolButton:hover {
+    background-color: #dff4fa;
+    border: 1px solid #85cfeb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QToolButton:pressed {
+    background-color: #b1e2f2;
+    border: 1px solid #4faade;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+QToolButton:disabled {
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #bbbbbb;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 4px 8px;
+    min-height: 24px;
+}
+
+/* Size-specific overrides */
+
+/* Small size components (default) */
+QPushButton[size="small"], QToolButton[size="small"] {
+    min-height: 24px;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+/* Medium size components */
+QPushButton[size="medium"], QToolButton[size="medium"] {
+    min-height: 32px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+/* Large size components */
+QPushButton[size="large"], QToolButton[size="large"] {
+    min-height: 40px;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+/* QToolButton with arrow specific styles */
+QToolButton[popupMode="MenuButtonPopup"] {
+    padding-right: 20px; /* Reserve space for arrow */
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button {
+    border: 1px solid #bbbbbb;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 16px;
+    background: #e2e2e2;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button:hover {
+    background: #dff4fa;
+    border-color: #85cfeb;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button:pressed {
+    background: #b1e2f2;
+    border-color: #4faade;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-arrow {
+    image: url(":/icons/down-arrow.png");
+    width: 8px;
+    height: 8px;
+}
+
+/* Icon-only QToolButton styles */
+QToolButton[toolButtonStyle="ToolButtonIconOnly"] {
+    padding: 4px;
+    min-width: 24px;
+}
+
+QToolButton[toolButtonStyle="ToolButtonIconOnly"][size="medium"] {
+    padding: 6px;
+    min-width: 32px;
+}
+
+QToolButton[toolButtonStyle="ToolButtonIconOnly"][size="large"] {
+    padding: 8px;
+    min-width: 40px;
+}
+
+/* QLabel styles (for component labels) */
+QLabel {
+    color: #3f3f3f;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    border: none;
+}
+
+QLabel:disabled {
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+/* Component-specific QLabel overrides */
+QPushButton QLabel, QToolButton QLabel {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+/* Icon styles */
+QIcon {
+    background-color: #efefef;
+    border-radius: 2px;
+}
+
+/* Focus styles */
+QPushButton:focus, QToolButton:focus {
+    outline: 2px solid #85cfeb;
+    outline-offset: 2px;
+}
+
+/* Custom properties support */
+QPushButton[flat="true"] {
+    border: none;
+    background: transparent;
+}
+
+QPushButton[flat="true"]:hover {
+    background: #dff4fa;
+    border: 1px solid #85cfeb;
+}
+
+QPushButton[flat="true"]:pressed {
+    background: #b1e2f2;
+    border: 1px solid #4faade;
+}
+
+/* Animation support (Qt 5.12+) */
+QPushButton, QToolButton {
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Spacing utilities */
+.button-group QPushButton {
+    margin-right: 4px;
+}
+
+.button-group QPushButton:last-child {
+    margin-right: 0px;
+}
