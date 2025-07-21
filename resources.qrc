@@ -1,14 +1,43 @@
-<!DOCTYPE RCC>
-<RCC version="1.0">
-    <qresource prefix="/icons">
-        <file>src/resources/qabstract_button_icon.svg</file>
-    </qresource>
-    <qresource prefix="/styles">
-        <file>src/styles/qabstract_button.qss</file>
-        <file>src/styles/primary_button.qss</file>
-    </qresource>
-    <qresource prefix="/widgets">
-        <file>src/widgets/qabstract_button.ui</file>
-        <file>src/widgets/primary_button.ui</file>
+<RCC>
+    <qresource prefix="/">
+        <!-- Main Styles -->
+        <file>styles/main.qss</file>
+        
+        <!-- Theme Styles -->
+        <file>styles/themes/figma.qss</file>
+        
+        <!-- Component Styles -->
+        <file>styles/components/buttons.qss</file>
+        
+        <!-- Generated Styles -->
+        <file>styles/generated/figma-export.qss</file>
+        
+        <!-- Layout Files -->
+        <file>layouts/demo.ui</file>
+        
+        <!-- Button Icons -->
+        <file>resources/icons/buttons/check.svg</file>
+        <file>resources/icons/buttons/hover.svg</file>
+        <file>resources/icons/buttons/click.svg</file>
+        <file>resources/icons/buttons/disabled.svg</file>
+        <file>resources/icons/buttons/settings.svg</file>
+        <file>resources/icons/buttons/edit.svg</file>
+        <file>resources/icons/buttons/save.svg</file>
+        <file>resources/icons/buttons/delete.svg</file>
+        <file>resources/icons/buttons/close.svg</file>
+        <file>resources/icons/buttons/minimize.svg</file>
+        <file>resources/icons/buttons/maximize.svg</file>
+        
+        <!-- Navigation Icons -->
+        <file>resources/icons/navigation/menu.svg</file>
+        <file>resources/icons/navigation/back.svg</file>
+        <file>resources/icons/navigation/forward.svg</file>
+        
+        <!-- Action Icons -->
+        <file>resources/icons/actions/copy.svg</file>
+        <file>resources/icons/actions/paste.svg</file>
+        <file>resources/icons/actions/cut.svg</file>
+        <file>resources/icons/actions/undo.svg</file>
+        <file>resources/icons/actions/redo.svg</file>
     </qresource>
 </RCC>
