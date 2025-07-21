@@ -1,0 +1,58 @@
+/* Qt Export - Main Style Sheet */
+/* Imports all component styles and Figma theme */
+
+/* Import Figma Design System variables */
+@import "themes/figma.qss";
+
+/* Import component styles */
+@import "components/buttons.qss";
+@import "components/inputs.qss";
+@import "components/containers.qss";
+@import "components/navigation.qss";
+
+/* Global application styles */
+QApplication {
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+}
+
+/* Main window base styles */
+QMainWindow {
+    background-color: #ffffff;
+    color: #3f3f3f;
+}
+
+/* Status bar */
+QStatusBar {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+    font-size: 11px;
+}
+
+/* Menu bar */
+QMenuBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    color: #3f3f3f;
+}
+
+QMenuBar::item {
+    padding: 6px 12px;
+    background: transparent;
+}
+
+QMenuBar::item:selected {
+    background-color: #dff4fa;
+    color: #3f3f3f;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #343a40;
+    color: #ffffff;
+    border: 1px solid #495057;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 11px;
+}
