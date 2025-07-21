@@ -1,0 +1,254 @@
+/* Button Components - Figma Design System */
+/* All button styles with exact colors from Figma component set */
+
+/* =============================================================================
+   QPushButton Styles - Standard buttons with text and optional icons
+   ============================================================================= */
+
+QPushButton {
+    /* Default state - matches Figma active state */
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px 8px;
+    min-height: 24px;
+    min-width: 40px;
+}
+
+QPushButton:hover {
+    /* Hover state - light blue background */
+    background-color: #dff4fa;
+    border-color: #85cfeb;
+    color: #3f3f3f;
+}
+
+QPushButton:pressed {
+    /* Pressed state - bright blue background */
+    background-color: #b1e2f2;
+    border-color: #4faade;
+    color: #3f3f3f;
+}
+
+QPushButton:disabled {
+    /* Disabled state - gray text, same background as active */
+    background-color: #e2e2e2;
+    border-color: #bbbbbb;
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+QPushButton:focus {
+    /* Focus state - blue outline */
+    outline: 2px solid #85cfeb;
+    outline-offset: 2px;
+}
+
+/* Size variants for QPushButton */
+QPushButton[size="small"] {
+    min-height: 24px;
+    font-size: 12px;
+    padding: 4px 8px;
+    min-width: 40px;
+}
+
+QPushButton[size="medium"] {
+    min-height: 32px;
+    font-size: 14px;
+    padding: 6px 12px;
+    min-width: 60px;
+}
+
+QPushButton[size="large"] {
+    min-height: 40px;
+    font-size: 16px;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+
+/* Flat button variant */
+QPushButton[flat="true"] {
+    border: none;
+    background: transparent;
+}
+
+QPushButton[flat="true"]:hover {
+    background-color: #dff4fa;
+    border: 1px solid #85cfeb;
+}
+
+QPushButton[flat="true"]:pressed {
+    background-color: #b1e2f2;
+    border: 1px solid #4faade;
+}
+
+/* =============================================================================
+   QToolButton Styles - Icon-only and dropdown buttons
+   ============================================================================= */
+
+QToolButton {
+    /* Default state - same as QPushButton but square */
+    background-color: #e2e2e2;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #3f3f3f;
+    font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+QToolButton:hover {
+    /* Hover state - light blue */
+    background-color: #dff4fa;
+    border-color: #85cfeb;
+    color: #3f3f3f;
+}
+
+QToolButton:pressed {
+    /* Pressed state - bright blue */
+    background-color: #b1e2f2;
+    border-color: #4faade;
+    color: #3f3f3f;
+}
+
+QToolButton:disabled {
+    /* Disabled state - gray text */
+    background-color: #e2e2e2;
+    border-color: #bbbbbb;
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+QToolButton:focus {
+    /* Focus state - blue outline */
+    outline: 2px solid #85cfeb;
+    outline-offset: 2px;
+}
+
+/* Icon-only QToolButton */
+QToolButton[toolButtonStyle="ToolButtonIconOnly"] {
+    padding: 4px;
+    text-align: center;
+}
+
+QToolButton[toolButtonStyle="ToolButtonIconOnly"][size="small"] {
+    min-height: 24px;
+    min-width: 24px;
+    padding: 4px;
+}
+
+QToolButton[toolButtonStyle="ToolButtonIconOnly"][size="medium"] {
+    min-height: 32px;
+    min-width: 32px;
+    padding: 6px;
+}
+
+QToolButton[toolButtonStyle="ToolButtonIconOnly"][size="large"] {
+    min-height: 40px;
+    min-width: 40px;
+    padding: 8px;
+}
+
+/* QToolButton with dropdown menu */
+QToolButton[popupMode="MenuButtonPopup"] {
+    padding-right: 20px; /* Reserve space for dropdown arrow */
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button {
+    /* Dropdown arrow button */
+    border: 1px solid #bbbbbb;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: none;
+    width: 16px;
+    background: #e2e2e2;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button:hover {
+    background: #dff4fa;
+    border-color: #85cfeb;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-button:pressed {
+    background: #b1e2f2;
+    border-color: #4faade;
+}
+
+QToolButton[popupMode="MenuButtonPopup"]::menu-arrow {
+    /* Dropdown arrow icon */
+    image: url(":/resources/icons/buttons/dropdown.svg");
+    width: 8px;
+    height: 8px;
+}
+
+/* =============================================================================
+   Button Groups - When buttons are grouped together
+   ============================================================================= */
+
+.button-group QPushButton {
+    margin-right: 4px;
+}
+
+.button-group QPushButton:last-child {
+    margin-right: 0px;
+}
+
+/* Rounded button group */
+.button-group-rounded QPushButton:first-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.button-group-rounded QPushButton:last-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.button-group-rounded QPushButton:not(:first-child):not(:last-child) {
+    border-radius: 0px;
+}
+
+/* =============================================================================
+   Special button types
+   ============================================================================= */
+
+/* Primary button - more prominent */
+QPushButton[primary="true"] {
+    background-color: #0066cc;
+    border-color: #0056b3;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QPushButton[primary="true"]:hover {
+    background-color: #0052a3;
+    border-color: #004085;
+}
+
+QPushButton[primary="true"]:pressed {
+    background-color: #003d7a;
+    border-color: #002c5f;
+}
+
+/* Danger button - for destructive actions */
+QPushButton[danger="true"] {
+    background-color: #dc3545;
+    border-color: #c82333;
+    color: #ffffff;
+}
+
+QPushButton[danger="true"]:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+QPushButton[danger="true"]:pressed {
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
