@@ -1,0 +1,84 @@
+/* Figma Design System Variables */
+/* Extracted from Figma component set - exact colors and measurements */
+
+:root {
+    /* Surface Colors - Background colors for components */
+    --figma-surface-active: #e2e2e2;     /* Default state background */
+    --figma-surface-hover: #dff4fa;      /* Light blue on hover */
+    --figma-surface-pressed: #b1e2f2;    /* Bright blue when pressed */
+    --figma-surface-disabled: #e2e2e2;   /* Same as active but with disabled text */
+    
+    /* Border Colors - Border colors for different states */
+    --figma-border-active: #bbbbbb;      /* Default gray border */
+    --figma-border-hover: #85cfeb;       /* Blue border on hover */
+    --figma-border-pressed: #4faade;     /* Dark blue border when pressed */
+    --figma-border-disabled: #bbbbbb;    /* Gray border for disabled */
+    
+    /* Text Colors - Text and label colors */
+    --figma-text-active: #3f3f3f;        /* Dark gray for normal text */
+    --figma-text-disabled: #bbbbbb;      /* Light gray for disabled text */
+    --figma-text-placeholder: #8e8e8e;   /* Medium gray for placeholder text */
+    
+    /* Icon Colors - Icon background and foreground */
+    --figma-icon-surface: #efefef;       /* Light gray icon background */
+    --figma-icon-active: #bbbbbb;        /* Icon color in active state */
+    --figma-icon-disabled: #d0d0d0;      /* Lighter icon color when disabled */
+    
+    /* Typography - Font sizes from Figma */
+    --figma-font-small: 12px;            /* Small components (sm) */
+    --figma-font-medium: 14px;           /* Medium components (md) */
+    --figma-font-large: 16px;            /* Large components (lg) */
+    --figma-font-family: "Roboto", "Segoe UI", Arial, sans-serif;
+    
+    /* Component Sizes - Heights and dimensions */
+    --figma-size-small: 24px;            /* Small component height */
+    --figma-size-medium: 32px;           /* Medium component height */
+    --figma-size-large: 40px;            /* Large component height */
+    
+    /* Spacing - Padding and margins */
+    --figma-spacing-xxs: 4px;            /* Extra extra small spacing */
+    --figma-spacing-xs: 8px;             /* Extra small spacing */
+    --figma-spacing-sm: 12px;            /* Small spacing */
+    --figma-spacing-md: 16px;            /* Medium spacing */
+    --figma-spacing-lg: 24px;            /* Large spacing */
+    
+    /* Border Radius - Corner rounding */
+    --figma-radius-none: 0px;            /* No rounding */
+    --figma-radius-sm: 4px;              /* Small radius (most common) */
+    --figma-radius-md: 8px;              /* Medium radius */
+    --figma-radius-lg: 12px;             /* Large radius */
+    
+    /* Shadows - Elevation effects */
+    --figma-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+    --figma-shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --figma-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15);
+    
+    /* Focus - Focus indicator colors */
+    --figma-focus-ring: #85cfeb;         /* Blue focus ring */
+    --figma-focus-shadow: 0 0 0 2px rgba(133, 207, 235, 0.3);
+}
+
+/* CSS Custom Properties Support for older Qt versions */
+/* These can be used directly in QSS without CSS variables */
+
+/* Surface color classes */
+.figma-surface-active { background-color: #e2e2e2; }
+.figma-surface-hover { background-color: #dff4fa; }
+.figma-surface-pressed { background-color: #b1e2f2; }
+.figma-surface-disabled { background-color: #e2e2e2; }
+
+/* Border color classes */
+.figma-border-active { border-color: #bbbbbb; }
+.figma-border-hover { border-color: #85cfeb; }
+.figma-border-pressed { border-color: #4faade; }
+.figma-border-disabled { border-color: #bbbbbb; }
+
+/* Text color classes */
+.figma-text-active { color: #3f3f3f; }
+.figma-text-disabled { color: #bbbbbb; }
+.figma-text-placeholder { color: #8e8e8e; }
+
+/* Size classes */
+.figma-size-small { min-height: 24px; font-size: 12px; }
+.figma-size-medium { min-height: 32px; font-size: 14px; }
+.figma-size-large { min-height: 40px; font-size: 16px; }
